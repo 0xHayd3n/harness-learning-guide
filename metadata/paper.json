@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Harness Learning Enables Generalizable Test-Time Adaptation",
+  "authors": [
+    {
+      "given": "Alvin",
+      "family": "Zhang",
+      "name": "Alvin Zhang"
+    },
+    {
+      "given": "Xuecheng",
+      "family": "Liu",
+      "name": "Xuecheng Liu"
+    },
+    {
+      "given": "Zixuan",
+      "family": "Wang",
+      "name": "Zixuan Wang"
+    },
+    {
+      "given": "Fahim",
+      "family": "Tajwar",
+      "name": "Fahim Tajwar"
+    },
+    {
+      "given": "Daman",
+      "family": "Arora",
+      "name": "Daman Arora"
+    },
+    {
+      "given": "Ruslan",
+      "family": "Salakhutdinov",
+      "name": "Ruslan Salakhutdinov"
+    },
+    {
+      "given": "Daniel",
+      "family": "Khashabi",
+      "name": "Daniel Khashabi"
+    },
+    {
+      "given": "Yuda",
+      "family": "Song",
+      "name": "Yuda Song"
+    },
+    {
+      "given": "Andrea",
+      "family": "Zanette",
+      "name": "Andrea Zanette"
+    }
+  ],
+  "contributions": {
+    "equal_contributors": [
+      "Alvin Zhang",
+      "Xuecheng Liu",
+      "Zixuan Wang"
+    ],
+    "project_lead": "Alvin Zhang",
+    "equal_advisers": [
+      "Yuda Song",
+      "Andrea Zanette"
+    ]
+  },
+  "arxiv": {
+    "id": "2609.35738",
+    "version": "v1",
+    "submitted_at": "2026-09-28T17:52:54Z",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "canonical_url": "https://arxiv.org/abs/2609.35738",
+    "version_url": "https://arxiv.org/abs/2609.35738v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.35738v1",
+    "html_url": "https://arxiv.org/html/2609.35738v1"
+  },
+  "doi": {
+    "value": "10.48550/arXiv.2609.35738",
+    "status_as_checked": "arXiv-issued DOI; record marks registration pending"
+  },
+  "page_count": 36,
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "verified_via": "arXiv v1 license link"
+  },
+  "official_project": {
+    "url": "https://harness-learning.az04bz.chatgpt.site/",
+    "provenance_url": "https://azanette.com/"
+  },
+  "official_code": {
+    "url": "https://github.com/AlvinZH04/Harness-Learning",
+    "license_spdx": "MIT",
+    "copyright": "2026 Alvin Zhang",
+    "status": "Code coming soon!",
+    "implementation_available_as_checked": false
+  },
+  "verified_at": "2026-10-12",
+  "provenance": {
+    "source_filename": "arxiv-2609.35738v1.pdf",
+    "source_kind": "official public arXiv PDF",
+    "sha256": "469fdb0f1673ab1aacce96d24a8a1f6a0c35a479db799e4574e65a3beb38678f",
+    "size_bytes": 1464869,
+    "pdf_redistributed": false,
+    "full_text_redistributed": false,
+    "original_figures_redistributed": false,
+    "attachment_filename": "2609.35738v1.pdf",
+    "attachment_materialization_status": "Supported Library helper failed on Windows os.setxattr; bounded retry attempted.",
+    "attachment_match_basis": [
+      "exact arXiv version",
+      "title",
+      "author list",
+      "36-page count",
+      "stated byte size"
+    ],
+    "attachment_binary_equality_verified": false
+  },
+  "companion": {
+    "repository_name": "harness-learning-guide",
+    "maintainer": "0xHayd3n",
+    "status": "unofficial reading companion",
+    "ai_assistance": true,
+    "experiments_run": false,
+    "implementation_reproduced": false,
+    "original_material_license_spdx": "CC-BY-4.0"
+  }
+}

@@ -1,0 +1,33 @@
+# Harness Learning Guide
+
+> Unofficial reading companion to Harness Learning Enables Generalizable Test-Time Adaptation (Zhang et al., 2026), arXiv:2609.35738v1. All research credit belongs to the nine paper authors. No experiments or replication performed here.
+
+## Read first
+- [README](README.md): credit, scope, headline claims and reading routes.
+- [Agent instructions](AGENTS.md): grounding, scope and editing rules.
+- [Paper metadata](metadata/paper.json): exact version, authors, official links, provenance.
+- [Source register](metadata/sources.json): primary-source checks.
+- [Claim index](metadata/claims.json): findings, qualifications and source pages.
+
+## Detailed notes
+- [Concepts](docs/01-concepts-and-context.md)
+- [Method and protocols](docs/02-method-and-protocols.md)
+- [Results](docs/03-results.md)
+- [Analysis and limitations](docs/04-analysis-and-limitations.md)
+- [Paper map](docs/05-paper-map.md)
+- [Discussion and replication](docs/06-discussion-and-replication.md)
+
+## Primary sources
+- [Versioned paper](https://arxiv.org/abs/2609.35738v1)
+- [Versioned PDF](https://arxiv.org/pdf/2609.35738v1)
+- [Versioned HTML](https://arxiv.org/html/2609.35738v1)
+- [Official project](https://harness-learning.az04bz.chatgpt.site/)
+- [Official code repository](https://github.com/AlvinZH04/Harness-Learning): marked “Code coming soon!” on 2026-10-12.
+
+## Citation and reuse
+- [BibTeX](references/paper.bib)
+- [CFF](CITATION.cff)
+- [Attribution](ATTRIBUTION.md)
+- [License](LICENSE)
+
+Preserve metric, population, failure treatment, and selection rules with numerical claims. Separate the paper's reported evidence from interpretation. This index follows an llms.txt-style navigation pattern; agent support for this convention is not guaranteed.

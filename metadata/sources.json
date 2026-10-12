@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "checked_at": "2026-10-12",
+  "sources": [
+    {
+      "id": "arxiv-record",
+      "url": "https://arxiv.org/abs/2609.35738v1",
+      "kind": "primary bibliographic record",
+      "supports": [
+        "title",
+        "nine authors",
+        "submission timestamp",
+        "categories",
+        "paper license link",
+        "DOI status"
+      ]
+    },
+    {
+      "id": "paper-v1",
+      "url": "https://arxiv.org/pdf/2609.35738v1",
+      "kind": "primary research PDF",
+      "supports": [
+        "method",
+        "protocols",
+        "reported results",
+        "figures and tables",
+        "limitations"
+      ],
+      "pages": 36
+    },
+    {
+      "id": "paper-html",
+      "url": "https://arxiv.org/html/2609.35738v1",
+      "kind": "primary research HTML",
+      "supports": [
+        "accessible source reading and section navigation"
+      ]
+    },
+    {
+      "id": "paper-license",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "kind": "license deed linked from arXiv"
+    },
+    {
+      "id": "cc-legalcode",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "kind": "canonical license text for original companion material"
+    },
+    {
+      "id": "author-page",
+      "url": "https://azanette.com/",
+      "kind": "author publication page",
+      "supports": [
+        "official project provenance"
+      ]
+    },
+    {
+      "id": "official-project",
+      "url": "https://harness-learning.az04bz.chatgpt.site/",
+      "kind": "author-linked project",
+      "supports": [
+        "official paper and code links"
+      ]
+    },
+    {
+      "id": "official-code",
+      "url": "https://github.com/AlvinZH04/Harness-Learning",
+      "kind": "author code repository"
+    },
+    {
+      "id": "official-code-readme",
+      "url": "https://github.com/AlvinZH04/Harness-Learning/blob/main/README.md",
+      "kind": "author code status",
+      "supports": [
+        "Code coming soon!"
+      ]
+    },
+    {
+      "id": "official-code-license",
+      "url": "https://github.com/AlvinZH04/Harness-Learning/blob/main/LICENSE",
+      "kind": "author code license",
+      "supports": [
+        "MIT",
+        "2026 Alvin Zhang"
+      ]
+    }
+  ]
+}

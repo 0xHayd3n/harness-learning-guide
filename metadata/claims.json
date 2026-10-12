@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0.0",
+  "paper_version": "2609.35738v1",
+  "note": "Navigation and evidence index. Values are author-reported, not replicated here.",
+  "claims": [
+    {
+      "id": "frozen-test-time-models",
+      "kind": "reported_method",
+      "statement": "At test time both proposer and solver parameters remain fixed; adaptation revises executable harness code.",
+      "sources": [
+        {
+          "section": "4.2",
+          "page": 4,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=4"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-selected-mean",
+      "kind": "reported_result",
+      "statement": "Mean single-step score on 21 selected unseen Reasoning Gym families increases from about 0.32 for Base to 0.62 after SFT + Single-step RL.",
+      "metric": "mean grader score",
+      "population": "21 selected unseen families; eight attempted proposals per family; format-varied questions",
+      "values": {
+        "base": 0.32,
+        "sft": 0.49,
+        "single_step_rl": 0.62,
+        "teacher": 0.56
+      },
+      "qualifications": [
+        "Five difficult unseen families omitted from this headline subset.",
+        "Not all unseen families or a general model-capability comparison.",
+        "Failed proposals count in means; consult B.1 for retained-parent treatment."
+      ],
+      "sources": [
+        {
+          "section": "5.2",
+          "page": 6,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=6"
+        },
+        {
+          "section": "B.1",
+          "page": 16,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=16"
+        },
+        {
+          "table": "9",
+          "page": 21,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=21"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-all-unseen-mean",
+      "kind": "reported_result",
+      "statement": "Across all 26 unseen Reasoning Gym families, the reported means are Base 0.282, SFT 0.415, Single-step RL 0.528, and teacher 0.501.",
+      "metric": "mean grader score",
+      "population": "all 26 unseen families",
+      "values": {
+        "base": 0.282,
+        "sft": 0.415,
+        "single_step_rl": 0.528,
+        "teacher": 0.501
+      },
+      "sources": [
+        {
+          "section": "B.1",
+          "page": 16,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=16"
+        }
+      ]
+    },
+    {
+      "id": "teacher-average-and-oracle",
+      "kind": "reported_result",
+      "statement": "On the selected 21-family comparison, RL exceeds teacher in mean score but teacher exceeds RL under held-out oracle best-of-eight.",
+      "metric": "mean score and oracle best-of-eight",
+      "population": "21 selected unseen families",
+      "values": {
+        "rl_mean": 0.62,
+        "teacher_mean": 0.56,
+        "rl_oracle_best_of_eight": 0.83,
+        "teacher_oracle_best_of_eight": 0.85
+      },
+      "qualifications": [
+        "Oracle selection uses held-out scores and is not a deployable adaptation rule."
+      ],
+      "sources": [
+        {
+          "table": "9",
+          "page": 21,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=21"
+        }
+      ]
+    },
+    {
+      "id": "qa-musique-repeated",
+      "kind": "reported_result",
+      "statement": "MuSiQue Single-step RL independent revisions average 0.1467 EM; ten-round adaptation reaches about 0.27 EM.",
+      "metric": "held-out normalized exact match",
+      "population": "299 MuSiQue held-out questions; independent pool of 80 proposals and four sequential runs of 80 proposals each",
+      "values": {
+        "independent_seed": 0.1438,
+        "independent_mean": 0.1467,
+        "ten_round_mean_approx": 0.27
+      },
+      "qualifications": [
+        "Ten-round figure value rounded in main text.",
+        "Proposal count matches per sequential run, not four-run total.",
+        "Feedback and compute unmatched; seed evaluated separately by protocol."
+      ],
+      "sources": [
+        {
+          "section": "5.3",
+          "page": 7,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=7"
+        },
+        {
+          "figure": "5",
+          "page": 8,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=8"
+        },
+        {
+          "table": "23",
+          "page": 34,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=34"
+        }
+      ]
+    },
+    {
+      "id": "multistep-training-mixed",
+      "kind": "reported_result",
+      "statement": "Multistep RL does not consistently improve on Single-step RL; both can adapt repeatedly at inference.",
+      "qualifications": [
+        "Both use immediate rewards.",
+        "Long-horizon credit assignment remains open."
+      ],
+      "sources": [
+        {
+          "section": "5.4",
+          "page": 7,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=7"
+        },
+        {
+          "section": "6.3",
+          "page": 9,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=9"
+        }
+      ]
+    },
+    {
+      "id": "selection-difference",
+      "kind": "reported_protocol",
+      "statement": "Reasoning Gym keeps only strictly improving development candidates; QA advances to best runnable candidate even below parent, keeping parent if all candidates fail.",
+      "sources": [
+        {
+          "section": "B.1",
+          "page": 16,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=16"
+        },
+        {
+          "section": "D.3",
+          "page": 33,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=33"
+        }
+      ]
+    },
+    {
+      "id": "composition-interface",
+      "kind": "authors_analysis",
+      "statement": "Correct computational helpers can fail to contribute because parsing, tool communication, or answer extraction fails.",
+      "qualifications": [
+        "Qualitative inspected examples, not proof of a universal causal mechanism."
+      ],
+      "sources": [
+        {
+          "section": "6.2",
+          "page": 8,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=8"
+        },
+        {
+          "table": "20",
+          "page": 31,
+          "url": "https://arxiv.org/pdf/2609.35738v1#page=31"
+        }
+      ]
+    }
+  ]
+}

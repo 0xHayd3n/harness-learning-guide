@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Please cite the original paper when discussing the research. This repository is an unofficial reading companion."
+title: "Harness Learning Guide: unofficial reading companion"
+type: software
+authors:
+  - name: "0xHayd3n"
+repository-code: "https://github.com/0xHayd3n/harness-learning-guide"
+url: "https://github.com/0xHayd3n/harness-learning-guide"
+license: CC-BY-4.0
+date-released: "2026-10-12"
+preferred-citation:
+  type: article
+  title: "Harness Learning Enables Generalizable Test-Time Adaptation"
+  authors:
+    - given-names: "Alvin"
+      family-names: "Zhang"
+    - given-names: "Xuecheng"
+      family-names: "Liu"
+    - given-names: "Zixuan"
+      family-names: "Wang"
+    - given-names: "Fahim"
+      family-names: "Tajwar"
+    - given-names: "Daman"
+      family-names: "Arora"
+    - given-names: "Ruslan"
+      family-names: "Salakhutdinov"
+    - given-names: "Daniel"
+      family-names: "Khashabi"
+    - given-names: "Yuda"
+      family-names: "Song"
+    - given-names: "Andrea"
+      family-names: "Zanette"
+  year: 2026
+  month: 9
+  journal: arXiv
+  doi: "10.48550/arXiv.2609.35738"
+  url: "https://arxiv.org/abs/2609.35738v1"
+  notes: "arXiv:2609.35738v1, submitted 28 September 2026. DOI registration marked pending in the arXiv record when checked on 12 October 2026."
